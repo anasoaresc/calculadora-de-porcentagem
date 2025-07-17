@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Calculadora</title>
+</head>
+<body>
+    <header id="inicio">
+        <i class="fa-solid fa-calculator" id="calc_logo"></i>
+        <h1>Calculadora de porcentagem</h1>
+    </header>
+    <nav>
+            <div id="navgr">
+                <i class="fa-solid fa-lightbulb" id="ligthbulb_logo"></i>
+                <p>
+                        Ferramenta online que permite calcular porcentagem de várias formas, como: aumentos, descontos, proporções, etc.
+                        Basta escolher qual das calculadoras de porcentagem mais se aplica ao seu problema, digitar nos espaços e clicar no botão calcular da linha correspondente.
+                </p>
+            </div>
+        </nav>
+    <main>
+        <section>
+            <div id="ipt1">
+                Quanto é <input type="number" name="number1" id="nbr1" placeholder="       --"> % de <input type="number" name="number2" id="nbr2" placeholder="       -- "> ? <br><br>
+
+                <input type="button" value="Calcular" id="btn1"><br><br>
+
+                Resultado: <input type="text" id="res1" readonly>
+
+            </div>
+            <br>
+
+            <div id="ipt2">
+                O valor <input type="number" name="number3" id="nbr3" placeholder="       -- "> é qual porcentagem de <input type="number" name="number4" id="nbr4" placeholder="       -- "> ? <br><br>
+                
+                <input type="button" value="Calcular" id="btn2"><br><br>
+
+                Resultado: <input type="text" id="res2" readonly>
+            
+            </div>
+            <br>
+
+            <div id="ipt3">
+                Um valor de <input type="number" name="number5" id="nbr5" placeholder="       -- "> que <strong>AUMENTOU</strong> para <input type="number" name="number6" id="nbr6" placeholder="       -- ">. Qual foi o aumento percentual? <br><br>
+                
+                <input type="button" value="Calcular" id="btn3"><br><br>
+
+                Resultado: <input type="text" id="res3" readonly>
+            </div>
+            <br>
+
+            <div id="ipt4">
+                Um valor de <input type="number" name="number7" id="nbr7" placeholder="       -- "> que <strong>DIMINUIU</strong> para <input type="number" name="number8" id="nbr8" placeholder="       -- ">. Qual foi a diminuição percentual? <br><br>
+            
+                <input type="button" value="Calcular" id="btn4"><br><br>
+
+                Resultado: <input type="text" id="res4" readonly>
+            </div>
+            <br>
+
+            <div id="ipt5">
+                O valor <input type="number" name="number9" id="nbr9" placeholder="       -- "> sobre o valor <input type="number" name="number10" id="nbr10" placeholder="       -- "> é quantos por cento? <br><br>
+
+                <input type="button" value="Calcular" id="btn5"><br><br>
+
+                Resultado: <input type="text" id="res5" readonly>
+            </div>
+            <br>
+            
+            <div id="ipt6">
+                Tenho um valor de <input type="number" name="number11" id="nbr11" placeholder="       -- "> e quero <strong>AUMENTAR</strong> <input type="number" name="number12" id="nbr12" placeholder="       -- "> %. Qual é o resultado? <br><br>
+            
+                <input type="button" value="Calcular" id="btn6"><br><br>
+
+                Resultado: <input type="text" id="res6" readonly>
+            </div>
+            <br>
+            
+            <div id="ipt7">
+                Tenho um valor de <input type="number" name="number13" id="nbr13" placeholder="       -- "> e quero <strong>DIMINUIR</strong> <input type="number" name="number14" id="nbr14" placeholder="       -- "> %. Qual é o resultado? <br><br>
+
+                <input type="button" value="Calcular" id="btn7"><br><br>
+
+                Resultado: <input type="text" id="res7" readonly>
+            </div>
+            <br>
+            
+            <div id="ipt8">
+                Tenho um valor inicial que <strong>AUMENTOU</strong> em <input type="number" name="number15" id="nbr15" placeholder="       -- "> % e passou para <input type="number" name="number16" id="nbr16" placeholder="       -- ">. Qual o valor inicial? <br><br>
+            
+                <input type="button" value="Calcular" id="btn8"><br><br>
+
+                Resultado: <input type="text" id="res8" readonly>
+            </div>
+            <br>
+
+            <div id="ipt9">
+                Tenho um valor inicial que <strong>DIMINUIU</strong> em <input type="number" name="number17" id="nbr17" placeholder="       -- "> % e passou para <input type="number" name="number18" id="nbr18" placeholder="       -- ">. Qual o valor inicial? <br><br>
+            
+                <input type="button" value="Calcular" id="btn9"><br><br> 
+                
+                Resultado: <input type="text" id="res9" readonly>
+            </div>
+            <br>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Ana Clara Soares</p>
+    </footer>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
